@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "serve": "netlify functions:serve",
-    "dev":"vite",
-    "build":"vite build",
-    "preview":"vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +18,11 @@
     "vite": "^5.4.11"
   },
   "dependencies": {
+    "@chakra-ui/react": "^3.2.0",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "framer-motion": "^11.11.17",
+    "node-fetch": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
